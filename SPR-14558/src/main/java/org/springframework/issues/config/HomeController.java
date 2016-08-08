@@ -14,7 +14,7 @@ public class HomeController {
 
 	@RequestMapping("/home")
 	public String home(Model model) {
-		model.addAttribute("name", "spring");
+		model.addAttribute("name", "sprïng");
 		return "home";
 	}
 
